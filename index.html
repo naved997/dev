@@ -1,9 +1,19 @@
 <html>
 <head>
   <title>Naved Ahmed</title>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
-  <body>
-  <h1>Naved Ahmed</h1>
-    <h1>Hello World</h1>
+  <body onload="my()">
+  
+    <script>
+    function my(){
+    Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Server Issue Going On...',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+    }
+    </script>
   </body>
 </html>
